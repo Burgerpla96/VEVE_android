@@ -6,6 +6,7 @@ import android.content.Intent;
 import android.content.SharedPreferences;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
+import android.graphics.Color;
 import android.os.AsyncTask;
 import android.os.Bundle;
 import android.util.Log;
@@ -325,10 +326,10 @@ public class OtherHomeActivity extends AppCompatActivity implements Runnable,Vie
 
         @Override
         protected void onPostExecute(String result) {
-            // 통신이 완료되면 호출됩니다.
-            // 결과에 따른 UI 수정 등은 여기서 합니다.
-            //Toast.makeText(getApplicationContext(), result, Toast.LENGTH_LONG).show();
-            onBackPressed();
+            follow_btn.setText("팔로우 취소");
+            follow_btn.setBackgroundColor(Color.WHITE);
+            int count = Integer.parseInt(follower_count.getText().toString())+1;
+            follower_count.setText(String.format("%s",count));
         }
     }
 }
