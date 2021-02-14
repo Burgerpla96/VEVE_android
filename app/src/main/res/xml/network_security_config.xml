@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<network-security-config>
+    <base-config cleartextTrafficPermitted="true">
+        <trust-anchors>
+            <certificates src="system" />
+        </trust-anchors>
+        <base includeSubdomains="true">172.20.10.11:8080/veve/Member/Auth/Restaurant.do</base>
+        <base includeSubdomains="true">code.jquery.com</base>
+        <base includeSubdomains="true">dapi.kakao.com</base>
+        <base includeSubdomains="true">daumcdn.net</base>
+        <base includeSubdomains="true">goo.gl</base>
+    </base-config>
+</network-security-config>

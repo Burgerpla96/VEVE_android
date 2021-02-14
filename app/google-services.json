@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "941315036492",
+    "project_id": "veve-a60a2",
+    "storage_bucket": "veve-a60a2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:941315036492:android:827fc083d4d9a8100cabe9",
+        "android_client_info": {
+          "package_name": "com.kosmo.veve"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "941315036492-fshf188jtkidql2cbmcr2oiiakncmpf0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.kosmo.veve",
+            "certificate_hash": "04d20c297805721cd4567551371658d37dd82bf2"
+          }
+        },
+        {
+          "client_id": "941315036492-82ia7sepc8o7f2pan3383l6i5m3qgbeq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCflJofh3j5xNrfT7T95Dr0crurlDEf_WY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "941315036492-82ia7sepc8o7f2pan3383l6i5m3qgbeq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
